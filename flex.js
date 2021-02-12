@@ -1,6 +1,8 @@
-function stampa(){
-  var x=document.getElementById("skusku");
-  for(int i=0; i<10; i++){
-    x.innerHTML="blablabla: "+i+"<br>";
-  }
-}
+function stampa() {
+        var x = document.getElementById("skusku");
+        var flex="";
+        for (var i = 0; i < 10; i++) {
+            flex = flex+("blablabla: " + i + "<br>");
+        }
+        x.innerHTML=flex;
+    }
